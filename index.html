@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+	<!-- LINKS TO CSS -->
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+	<!-- FIRST DIV TO DISPLAY TITLE -->
+	<div>
+		<h1>CRYSTAL COLLECTOR!</h1>
+	</div>
+	
+	<!-- DISPLAY GAME INSTRUCTIONS HERE -->
+
+	<div id="instructions">
+	
+		<p>You will be given a random number at the start of the game.</p>
+			
+		<p>There will be four crystals below. By clicking on a crystal you will add a specific amout of points to your score. </p>
+		
+		<p>You win the game by matching your total score to the random number, you will lose the game if your total score goes above the random number.</p>
+			
+		<p>The value of each crystal is hidden from you until you click on it.</p>
+			
+		<p>Each time the game starts, the game will change the value of each crystal</p>	
+
+		<h2> GOOD LUCK!!</h2>	
+
+	</div>
+
+	<!-- RANDOM NUMBER GENERATED GOES HERE -->
+	
+	<div id="randomNumber">
+		
+	</div>
+	
+	<!-- WINS AND LOSSES -->
+
+	<div>
+		<p id="wins"></p>
+
+		<p id="losses"></p>
+
+	</div>
+
+	<!-- CRYSTALS!!!! -->
+ 	
+ 	<div id="crystals">
+ 		<img src="assets/images/Blue_Lightsaber_Crystal.png" class="crystal" id="blue">
+
+ 		<img src="assets/images/Green_Lightsaber_Crystal.png" class="crystal" id="green">
+
+ 		<img src="assets/images/Red_Lightsaber_Crystal.png" class="crystal" id="red">
+ 		
+
+ 	</div>
+
+ 	<!-- YOU'RE TOTAL SCORE TEXT -->
+
+ 	<div><p><strong>You're total score:</strong></p></div>
+
+ 	
+ 	<!-- YOU'RE SCORE WILL BE DISPLAYED HERE -->
+
+	<div id="score">
+		
+	</div>
+
+
+
+
+
+
+
+
+<!-- LINKS TO JS AND JQUERY -->
+
+<script type="text/javascript" src= "assets/javascript/game.js"></script>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous">
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
